@@ -2,7 +2,7 @@
 # Ubuntu-Dev Dockerfile for building Linux Distribution.
 #
 
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 
 RUN \
   sed -i 's/# \(.*multiverse$\)/\1/g' /etc/apt/sources.list && \
